@@ -1,0 +1,21 @@
+.dashboard-main{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    color: var(--main-color);
+    
+}
+.dashboard-container{
+    display: flex;
+    min-height: 100vh;
+}
+.dashboard-menuContainer{
+    width: 250px;
+    padding: 5px 20px;
+    background-color: var(--main-bg);
+    border-right: 2px solid var(--soft-bg);
+}
+.dashboard-contentContainer{
+    width: 100%;
+    padding: 20px 20px;
+
+}

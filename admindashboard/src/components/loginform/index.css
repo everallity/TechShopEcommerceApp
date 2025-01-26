@@ -1,0 +1,84 @@
+.form-layout{
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    width: 70vw;
+    background-color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+}
+.form-section-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 50%;
+    background: url('E:\ReactProjects\GamerShop\admindashboard\src\assets\5206295.jpg');
+    background-size: cover;
+}
+.form-section-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 50%;
+    
+}
+.form-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.form-title .title{
+    
+    font-weight: 200;
+    font-size: 25px;
+}
+.form-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+.form-input .input{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.form-input Form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.form-input input{
+    padding: 10px 20px 10px 20px;
+    border: 1px solid #c4c4c4;
+    
+    position: relative;
+    width: 100%;
+    font-size: 16px;
+}
+.form-input button{
+    border: none;
+    font-size: 25;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(64, 64, 154);
+    color: whitesmoke;
+}
+.form-input button:hover{
+    background-color: rgb(25, 25, 236);
+    cursor: pointer;   
+}
+.form-input .checkbox {
+    display: flex;
+    flex-direction: row;
+
+}
+.form-input .checkbox input{
+    
+}
+.form-input .checkbox label{
+   
+}

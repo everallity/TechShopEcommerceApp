@@ -1,0 +1,28 @@
+.menu{
+
+}
+.menu .menuCategory{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.menu .menuCategory .categorytitle{
+    font-size: 12px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+.menu .menuCategory .menuFunction{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    transition: 300ms;
+}
+.menu .menuCategory .menuFunction:hover{
+    background-color: var(--soft-bg);
+}
+.menu .menuCategory .menuFunction:active{
+    background-color: var(--soft-bg);
+}

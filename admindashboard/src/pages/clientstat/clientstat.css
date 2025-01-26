@@ -1,0 +1,38 @@
+.clientstat-main-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.clientstat-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px black solid;
+}
+.clientstat-content .clientstat-title{
+    color: black;
+    font-size: 20px;
+}
+.clientstat-main .data-grid{
+
+}
+.clientstat-crud-table .clientstat-datepicker{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.clientstat-dateform{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.clientstat-datepicker label{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}

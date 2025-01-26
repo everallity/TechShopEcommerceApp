@@ -1,0 +1,10 @@
+.login_layout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: url("E:\ReactProjects\GamerShop\gamershop\src\assets\pexels-pixabay-373076.jpg");
+    background-size: cover;
+}

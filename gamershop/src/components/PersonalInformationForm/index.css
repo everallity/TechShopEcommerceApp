@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+.container_box{
+    background-color: white;
+    height: 500px;
+    min-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 12px;
+}
+.container_box .header{
+    display: flex;
+    flex-direction: column;
+}
+.container_box .header h1{
+    font-size: 20px;
+    font-weight: 200;
+}
+.container_box .content{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  
+}
+.input_form{
+    display: block;
+    flex-direction: column;
+    flex-basis: 55%;
+    gap: 30px;
+    height: 100%;
+}
+.input{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    margin: 10px;
+} 
+.input label{
+    height: 100%;
+}
+.input_form .radio_group{
+    display: flex;
+    gap: 20px;
+}
+.radio_group{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    margin: 10px;
+}
+.input_form .radio_group .option input{
+    margin-right: 5px;
+}
+.input input{
+    transition: 300ms;
+    border: none;
+    margin-left: 10px;
+    width: 400px;
+    border: 1px solid #181824;
+    font-size: 16px;
+    font-weight: 300;
+}
+.input input:focus{
+    outline: none;
+    box-shadow: 0 1px 0 0 darkcyan;
+    border-color: darkcyan;
+}
+.input_form button{
+    border: 1px solid;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 50px;
+    background-color: black;
+    font-size: 14px;
+    align-self: flex-end;
+}
+.input_form button:hover{
+    cursor: pointer;
+    background-color: lightblue;
+}
+.content .profile_pic img{
+    border-radius: 100%;
+    size: 100px;
+    border-color: red;
+}
+.profile_pic button{
+    border: 1px solid;
+    
+    color: black;
+    padding: 10px 10px;
+    font-size: 16px;
+}
+.profile_pic button:hover{
+    cursor: pointer;
+    background-color: lightblue;
+}
+.confirmbutton{
+    align-self: flex-end;
+}
+.dob_option{
+    margin-top: 10px;
+}
+.dob_option select{
+    margin-right: 10px;
+}

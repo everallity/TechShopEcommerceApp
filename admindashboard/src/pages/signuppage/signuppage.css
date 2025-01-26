@@ -1,0 +1,10 @@
+.signup_layout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: url("E:\ReactProjects\GamerShop\admindashboard\src\assets\hello-june-quote-with-beads.jpg");
+    background-size: cover;
+}

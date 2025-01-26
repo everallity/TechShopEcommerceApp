@@ -1,0 +1,38 @@
+.productstatdetail-main-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.productstatdetail-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px black solid;
+}
+.productstatdetail-title{
+    color: black;
+    font-size: 20px;
+}
+.productstatdetail-main .data-grid{
+
+}
+.productstatdetail-crud-table .productstatdetail-datepicker{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.productstatdetail-dateform{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.productstatdetail-datepicker label{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
